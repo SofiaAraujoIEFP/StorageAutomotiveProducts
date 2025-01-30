@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace StorageAutomotiveProducts.Entities
 {
-    public class Products
+    public class Products : BaseEntity
     {
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
