@@ -9,6 +9,5 @@ namespace StorageAutomotiveProducts.Entities
     public class Products : BaseEntity
     {
         public string Name { get; set; }
-        public string Description { get; set; }
     }
 }
